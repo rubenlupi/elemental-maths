@@ -1,7 +1,5 @@
 # 🟦 GENERAL EXAM GENERATOR PROMPT
 
-**LANGUAGE:** Generate all content in **CATALAN**.
-
 You will receive:
 1. **Theory content** - The educational material/concepts to be tested
 2. **Topic requirements** - Specific topics and concepts to cover in the exam

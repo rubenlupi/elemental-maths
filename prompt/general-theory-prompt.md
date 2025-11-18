@@ -1,7 +1,5 @@
 # 🟦 GENERAL THEORY GENERATOR PROMPT
 
-**LANGUAGE:** Generate all content in **CATALAN**.
-
 ## 📋 THEORY STRUCTURE REQUIREMENTS
 
 ### For Each Concept Include:
