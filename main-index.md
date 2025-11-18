@@ -53,6 +53,7 @@ Number line idea for even numbers:
 🔹 **Common Misconceptions:**
 - Thinking `{2, 4, 6, ...}` must stop; ellipsis means it continues forever.
 - Confusing elements with subsets; `{1, 2}` is a subset of `{1, 2, 3}`, while `1` is an element.
+- Assuming rearranging elements changes the set, so `{1, 2, 3}` and `{3, 2, 1}` are viewed as different.
 
 🔹 **Connections:**
 - Organizes number sets like `ℕ`, `ℤ`, and `ℚ` later in the module.
@@ -94,6 +95,7 @@ Number line idea for even numbers:
 🔹 **Common Misconceptions:**
 - Believing a subset must be smaller; equality still counts.
 - Forgetting that `∅` is a subset of every set.
+- Treating a listed element `5 ∈ B` as if `{5}` were automatically a subset without confirming membership.
 
 🔹 **Connections:**
 - Builds the number hierarchy `ℕ ⊂ ℤ ⊂ ℚ` in Block 3.
@@ -133,6 +135,7 @@ Number line:
 🔹 **Common Misconceptions:**
 - Assuming fractions are not rationals; they define the set.
 - Thinking `0` must be in `ℕ`; conventions vary, so clarify context.
+- Believing repeating decimals like `0.333...` cannot be rational even though they equal fractions.
 
 🔹 **Connections:**
 - Prepares for decimals (Module 3) and extended systems (Module 4).
@@ -170,6 +173,7 @@ Base-10 blocks: [■■■■] thousands, [□□□□□] hundreds, etc.
 🔹 **Common Misconceptions:**
 - Dropping zeros and changing magnitude.
 - Reading digits separately instead of by place (“two zero five” for `205`).
+- Assuming expanded form must list only nonzero digits, causing students to omit placeholder terms.
 
 🔹 **Connections:**
 - Supports decimal understanding (Module 3) and scientific notation.
@@ -203,6 +207,7 @@ Base-10 blocks: [■■■■] thousands, [□□□□□] hundreds, etc.
 🔹 **Common Misconceptions:**
 - Forgetting to adjust exponent when moving decimal.
 - Reversing direction of exponent sign.
+- Thinking coefficient may be zero or exceed `10`, which breaks scientific notation rules.
 
 🔹 **Connections:**
 - Links with exponent laws (Module 6) and measurement scales (Module 8).
@@ -241,6 +246,7 @@ Divisor | Quick test
 🔹 **Common Misconceptions:**
 - Applying the wrong test (e.g., digit sum for `4`).
 - Forgetting divisibility by `6` requires both `2` and `3`.
+- Assuming divisibility rules guarantee primality rather than only testing factors.
 
 🔹 **Connections:**
 - Leads into primes, GCD, and LCM (Blocks 7–9).
@@ -285,6 +291,7 @@ Factor tree for 12:
 🔹 **Common Misconceptions:**
 - Thinking negative numbers can be prime in the same sense; standard definition uses positive integers.
 - Assuming large numbers cannot be prime.
+- Believing the sieve finds primes by division instead of systematically striking multiples.
 
 🔹 **Connections:**
 - Prime factorization (Block 10) and cryptography (Module 21).
@@ -324,6 +331,7 @@ Rectangle tiling: common square size that tiles both rectangles.
 🔹 **Common Misconceptions:**
 - Mixing GCD with LCM.
 - Neglecting `1` as possible GCD.
+- Expecting Euclidean steps to stop when numbers match rather than when remainder hits zero.
 
 🔹 **Connections:**
 - Simplifies fractions (Module 5) and modular congruences.
@@ -360,6 +368,7 @@ First common → 12
 🔹 **Common Misconceptions:**
 - Stopping at any common multiple instead of the least.
 - Forgetting to include all prime powers.
+- Assuming least common multiple must be the product of the numbers even when they share factors.
 
 🔹 **Connections:**
 - Essential for common denominators (Module 5).
@@ -397,6 +406,7 @@ First common → 12
 🔹 **Common Misconceptions:**
 - Stopping at composite factors.
 - Believing `1` has prime factors; it does not.
+- Thinking different factor tree layouts produce different prime factorizations rather than the same multiset of primes.
 
 🔹 **Connections:**
 - Builds exponent skills (Module 6) and number theory (Module 9).
@@ -439,6 +449,7 @@ Fibonacci squares forming spiral: 1×1, 1×1, 2×2, 3×3, 5×5.
 🔹 **Common Misconceptions:**
 - Assuming triangular numbers are perfect numbers; they are distinct sequences.
 - Treating Fibonacci as arithmetic (fixed difference) instead of recursive addition.
+- Believing Fibonacci must start with `1, 1` and overlooking the standard `0, 1` convention used in many formulas.
 
 🔹 **Connections:**
 - Links to combinatorics (Module 20) and patterns (Module 10).
@@ -483,6 +494,7 @@ n | n mod 5
 🔹 **Common Misconceptions:**
 - Treating `mod` as division rather than remainder comparison.
 - Forgetting to reduce remainders into `0` to `n - 1` range.
+- Assuming congruent numbers must be close in size instead of differing by multiples of the modulus.
 
 🔹 **Connections:**
 - Supports divisibility logic and cyclic patterns (Block 13).
@@ -525,6 +537,8 @@ n | 2^n mod 5
 
 🔹 **Common Misconceptions:**
 - Expecting cycles to start at `n = 0`; initial terms may differ.
+- Believing every modulus yields a cycle of length equal to the modulus without checking actual order.
+- Assuming once a value repeats, the sequence immediately ends instead of continuing with the established cycle.
 
 #### Theory
 
@@ -1418,6 +1432,7 @@ Input set → function machine → output set diagram showing single arrows per 
 🔹 **Applications & Memory Hooks:**
 - Used in programming functions, physics formulas.
 - Remember: “Function = one input, one output.”
+- Tip: Name your function rule with context (`h(t)` for height, `C(p)` for cost) to keep meaning attached to symbols.
 
 ##### Block 2 – Input-Output Tables Build
 🔹 **Definition:** **Input-output tables** list sample inputs with their corresponding outputs to illustrate how a function behaves.
@@ -1451,6 +1466,7 @@ x | f(x)
 🔹 **Applications & Memory Hooks:**
 - Used in spreadsheets, coding loops, data modeling.
 - Tip: “Table tells the tale of the rule.”
+- Did you know...? Logarithm tables from the 1600s were early function tables, letting navigators compute products quickly.
 
 ##### Block 3 – Mapping Diagrams & Uniqueness
 🔹 **Definition:** **Mapping diagrams** show inputs in one column and outputs in another with arrows; uniqueness means each input arrow ends at only one output.
@@ -1483,6 +1499,7 @@ Arrows drawn from each input to its output.
 🔹 **Applications & Memory Hooks:**
 - Visual check for function property in classroom activities.
 - Hook: “One arrow out of each input dot.”
+- Tip: Trace each input arrow with a pencil tip—if you need a second path from the same input, the relation is not a function.
 
 ##### Block 4 – Linear Functions & Rate Idea
 🔹 **Definition:** **Linear functions** change at a constant rate; slope `m` measures change in output per unit change in input.
@@ -1513,6 +1530,7 @@ Straight line graph with slope triangle indicating rise/run.
 🔹 **Applications & Memory Hooks:**
 - Used in budgeting, speed calculations, proportional reasoning.
 - Remember: “Rate of change stays steady.”
+- Did you know...? The slope-intercept form became standard after 19th-century French texts popularized `y = mx + b` notation worldwide.
 
 ##### Block 5 – Quadratic Pattern Introduction
 🔹 **Definition:** **Quadratic functions** follow rules involving `x^2`, producing parabolic graphs with changing rates but constant second differences.
@@ -1574,6 +1592,7 @@ Curve showing rapid growth for b>1 and decay for 0<b<1.
 🔹 **Applications & Memory Hooks:**
 - Used in finance, biology growth, technology adoption.
 - Hook: “Multiply each move → exponential groove.”
+- Did you know...? Scientists track virus spread with exponential models because early-stage case counts often double at a nearly constant rate.
 
 ##### Block 7 – Representation Conversions & Modeling
 🔹 **Definition:** Converting between tables, graphs, equations, and verbal descriptions deepens understanding and supports modeling real scenarios with functions.
@@ -1604,6 +1623,8 @@ Cycle diagram: verbal ↔ table ↔ graph ↔ equation.
 🔹 **Applications & Memory Hooks:**
 - Supports interpreting scientific data, budgeting plans, coding functions.
 - Remember: “Translate around the cycle to trust the model.”
+- Tip: Keep a mini checklist—story → table → graph → equation—to ensure every representation matches the same ordered pairs.
+- Did you know...? Translating between representations mirrors the STEM practice of “triangulating” evidence across data, visuals, and formulas.
 - Reinforces algebra solving (Module 11) and measurement accuracy (Module 8).
 
 🔹 **Applications & Memory Hooks:**
@@ -4117,6 +4138,7 @@ III| IV
 🔹 **Applications & Memory Hooks:**
 - Used in maps, robotics, video game design.
 - Remember: “Walk along `x`, then climb `y`.”
+- Tip: Lightly sketch tick marks on both axes before plotting to keep spacing uniform.
 
 ##### Block 2 – Quadrant Identification Tasks
 🔹 **Definition:** The plane divides into four **quadrants** labeled `I` (top-right), `II` (top-left), `III` (bottom-left), `IV` (bottom-right), determined by signs of `x` and `y`.
@@ -4148,6 +4170,7 @@ Quadrant label diagram: each quadrant named with sign combination.
 🔹 **Applications & Memory Hooks:**
 - Navigation by coordinate signs, robotics pathing.
 - Tip: “Start in top-right (I) and rotate counterclockwise.”
+- Did you know...? The quadrant naming matches nautical quadrants sailors used for celestial navigation.
 
 ##### Block 3 – Horizontal/Vertical Distance Calculations
 🔹 **Definition:** Horizontal distance between points with same `y` equals difference of `x` values; vertical distance between points with same `x` equals difference of `y` values.
@@ -4178,6 +4201,7 @@ Segment on grid with endpoints marked; horizontal/vertical arrows.
 🔹 **Applications & Memory Hooks:**
 - City grid navigation, measuring lengths from coordinates.
 - Remember: “Subtract coordinates, take absolute value.”
+- Tip: Highlight repeated coordinates with a quick underline so horizontal or vertical distances stand out.
 
 ##### Block 4 – Perimeter/Area from Vertices
 🔹 **Definition:** For polygons plotted on the plane, use coordinates to compute side lengths, perimeter, and area (especially rectangles/triangles).
@@ -4208,6 +4232,7 @@ Graph showing rectangle; annotate base and height lengths.
 🔹 **Applications & Memory Hooks:**
 - Land surveying, map-based planning.
 - Remember: “Coordinates give side lengths; lengths build perimeter and area.”
+- Did you know...? Surveyors rely on coordinate-based formulas such as the shoelace method to compute land parcels accurately.
 
 ##### Block 5 – Tables → Graphs Translation
 🔹 **Definition:** Converting data tables `(x, y)` into plotted points creates graphs representing relationships; connect points where continuous.
@@ -4270,6 +4295,7 @@ Plot with line drawn; right triangle showing rise over run.
 🔹 **Applications & Memory Hooks:**
 - Modeling cost per item, speed, temperature change.
 - Remember: “Straight line = constant rise/run.”
+- Tip: Draw a tiny right triangle on the line to double-check rise and run before calculating slope.
 
 ##### Block 7 – Mixed Coordinate Applications
 🔹 **Definition:** Mixed tasks integrate plotting, distance, perimeter, slope, and table interpretation in multi-step scenarios.
@@ -4361,6 +4387,7 @@ A•────→   (ray AB)
 🔹 **Applications & Memory Hooks:**
 - Engineering drawings use precise segments and rays.
 - Remember: “Point names place; line keeps going.”
+- Tip: Label new points in clockwise order so segments are easy to reference later.
 
 ##### Block 2 – Angle Types & Measurement
 🔹 **Definition:** An **angle** forms when two rays share a common endpoint (vertex); classified by measure (acute `<90°`, right `=90°`, obtuse `>90°`, straight `=180°`).
@@ -4390,6 +4417,7 @@ Vertex B with rays BA and BC; protractor arc showing measure.
 🔹 **Applications & Memory Hooks:**
 - Used in drafting, robotics joint control.
 - Tip: “Acute is cute (<90°).”
+- Did you know...? The protractor’s modern semicircle design dates to the 18th century, helping artillery officers measure firing angles.
 
 ##### Block 3 – Triangle Classification & Angle Sum
 🔹 **Definition:** Triangles classify by sides (equilateral, isosceles, scalene) and angles (acute, right, obtuse); interior angles sum to `180°`.
@@ -4420,6 +4448,7 @@ Vertex B with rays BA and BC; protractor arc showing measure.
 🔹 **Applications & Memory Hooks:**
 - Architecture, engineering supports; triangulation in navigation.
 - Remember: “Triangle angles always total 180°.”
+- Tip: Arrange side lengths from shortest to longest first—then match the largest angle to the longest side.
 
 ##### Block 4 – Quadrilateral Property Comparison
 🔹 **Definition:** **Quadrilaterals** are four-sided polygons including parallelograms, rectangles, squares, rhombi, trapezoids; properties compare side lengths, angles, symmetry.
@@ -4450,6 +4479,7 @@ Table listing quadrilateral types vs properties (parallel sides, equal angles).
 🔹 **Applications & Memory Hooks:**
 - Design of tiles, windows, structural frames.
 - Tip: “Square is the VIP: very inclusive parallelogram.”
+- Did you know...? Architects classify quadrilaterals to design tessellations that tile floors without gaps.
 
 ##### Block 5 – Circle Measures (C, A Formulas)
 🔹 **Definition:** A **circle** consists of all points equidistant from center; key measures include radius `r`, diameter `d = 2r`, circumference `C = 2πr`, and area `A = πr^2`.
@@ -4479,6 +4509,7 @@ Circle diagram labeling r, d, circumference arrow around edge.
 🔹 **Applications & Memory Hooks:**
 - Wheel design, circular fields, engineering components.
 - Did you know...? Ancient civilizations approximated π using polygons.
+- Tip: Keep a “circumference vs area” reminder—perimeter uses single power of `r`, area squares it.
 
 ##### Block 6 – Symmetry & Simple Transformations
 🔹 **Definition:** **Symmetry** occurs when a figure maps onto itself via reflection, rotation, or translation; **transformations** move figures without altering size or shape.
@@ -4509,6 +4540,7 @@ Arrow diagram showing triangle before/after reflection and translation.
 🔹 **Applications & Memory Hooks:**
 - Art, design patterns, robotics movement.
 - Remember: “Symmetry means same shape after the move.”
+- Did you know...? Textile designers map symmetry using wallpaper groups to create repeating patterns.
 
 ##### Block 7 – Mixed Geometry Practice
 🔹 **Definition:** Mixed practice integrates points, lines, angles, polygons, and circles to solve multi-step geometric problems.
@@ -4539,6 +4571,7 @@ Concept map linking angles, triangles, quadrilaterals, circles.
 🔹 **Applications & Memory Hooks:**
 - Real-world tasks like designing playgrounds or analyzing blueprints.
 - Tip: “Sketch, label, compute.”
+- Did you know...? City planners overlay mixed-figure sketches to estimate materials for parks and plazas.
 
 ### Module 15: 3D Geometry (≈2.25h)
 Prisms, pyramids, cylinders, cones, spheres; nets; surface area; volume; spatial reasoning (cross-sections, Euler's formula).
@@ -4584,6 +4617,7 @@ Sketches of prism, pyramid, cylinder, cone, sphere annotated with base shapes.
 🔹 **Applications & Memory Hooks:**
 - Recognize packaging shapes, architectural elements.
 - Remember: “Name the base to name the solid.”
+- Did you know...? Many shipping boxes are rectangular prisms because right angles stack efficiently on pallets.
 
 ##### Block 2 – Faces/Edges/Vertices Counting
 🔹 **Definition:** **Faces** are flat surfaces, **edges** the line segments where faces meet, **vertices** points where edges meet.
@@ -4614,6 +4648,7 @@ Table listing solids with corresponding F, E, V counts.
 🔹 **Applications & Memory Hooks:**
 - Useful in 3D modeling, origami design, structural engineering.
 - Hook: “Faces, edges, vertices—count around every corner.”
+- Tip: Count faces first, then trace edges, and finish with vertices—use Euler’s formula as a final check.
 
 ##### Block 3 – Nets & Unfolding Shapes
 🔹 **Definition:** A **net** is a 2D layout that folds to form a 3D solid; demonstrates how faces connect.
@@ -4647,6 +4682,7 @@ ASCII net for cube:
 🔹 **Applications & Memory Hooks:**
 - Packaging design, craft templates.
 - Tip: “Flatten to understand, fold to rebuild.”
+- Did you know...? Cube nets inspired the first collapsible cardboard box patents in 1890.
 
 ##### Block 4 – Surface Area Computation
 🔹 **Definition:** **Surface area** is total area of all faces of a 3D solid, including curved surfaces for cylinders/cones.
@@ -4677,6 +4713,7 @@ Net annotated with area calculations per face before summing.
 🔹 **Applications & Memory Hooks:**
 - Painting, wrapping, designing containers.
 - Remember: “Unfold, measure, sum.”
+- Tip: Color-code congruent faces in the net so repeated areas aren’t missed in the total.
 
 ##### Block 5 – Volume Formulas Basics
 🔹 **Definition:** **Volume** measures the space a solid occupies; computed via formulas based on base area and height.
@@ -4708,6 +4745,7 @@ Stacking layers: prism built from repeated base area slices.
 🔹 **Applications & Memory Hooks:**
 - Tanks, packaging, construction estimates.
 - Tip: “Volume multiplies base area by height.”
+- Did you know...? Archimedes used water displacement to estimate crown volume—a precursor to modern volume measurement.
 
 ##### Block 6 – Cross-Sections & Visualization
 🔹 **Definition:** A **cross-section** is the shape created when a solid is sliced by a plane; visualizing helps understand structure.
@@ -4738,6 +4776,7 @@ Solid with cutting plane; resulting cross-section shaded.
 🔹 **Applications & Memory Hooks:**
 - Medical imaging slices (CT scans), architecture models.
 - Hook: “Slice to see inside.”
+- Tip: Sketch the cutting plane first, then imagine the exposed face as the shadow you would trace on paper.
 
 ##### Block 7 – Euler's Formula & Mixed Review
 🔹 **Definition:** For convex polyhedra, **Euler’s formula** `F + V - E = 2` relates faces, vertices, edges; mixed review applies all 3D concepts.
@@ -4768,6 +4807,7 @@ Diagram showing counts labeled on polyhedron; checklist verifying formula.
 🔹 **Applications & Memory Hooks:**
 - Useful in polyhedron design, 3D modeling checks.
 - Remember: “Faces plus vertices minus edges equals two for true polyhedra.”
+- Did you know...? Graphics software runs Euler-style checks to confirm 3D meshes are watertight before rendering.
 
 ### Module 16: Data & Statistics (≈2.25h)
 Data types, frequency tables, bar charts, pictograms, line graphs, pie charts, measures of central tendency (mean, median, mode, range), interpreting & critiquing data.
@@ -4815,6 +4855,7 @@ Tree diagram: Data → Qualitative / Quantitative → Discrete / Continuous.
 🔹 **Applications & Memory Hooks:**
 - Surveys, experiments, business analytics.
 - Remember: “Type first, graph second.”
+- Tip: Circle the measurement units in the problem statement so you know whether data are qualitative or quantitative.
 
 ##### Block 2 – Frequency Tables & Tally Marks
 🔹 **Definition:** A **frequency table** lists data values with counts; **tally marks** provide quick visual counting grouped in fives.
@@ -4847,6 +4888,7 @@ Fish| ||    | 2
 🔹 **Applications & Memory Hooks:**
 - Classroom surveys, inventory counts.
 - Tip: “Bundle tallies in fives for fast counting.”
+- Did you know...? British statisticians popularized tally tables during the 1800s to track industrial output.
 
 ##### Block 3 – Bar Charts & Pictograms
 🔹 **Definition:** **Bar charts** display categorical data with rectangular bars; **pictograms** use repeated icons to represent counts.
@@ -4882,6 +4924,7 @@ ASCII bar chart:
 🔹 **Applications & Memory Hooks:**
 - Business reports, media infographics.
 - Remember: “Same width, same spacing.”
+- Tip: Start your vertical axis at zero unless you clearly label a break to avoid misleading viewers.
 
 ##### Block 4 – Line & Pie Chart Creation
 🔹 **Definition:** **Line graphs** display trends over continuous intervals; **pie charts** show parts of a whole as fractional sectors.
@@ -4912,6 +4955,7 @@ Line graph with plotted points connected; pie circle divided into labeled slices
 🔹 **Applications & Memory Hooks:**
 - Trend analysis, budget presentations.
 - Tip: “Line shows change, pie shows share.”
+- Did you know...? Florence Nightingale used polar area charts—special pie charts—to reform hospital sanitation.
 
 ##### Block 5 – Measures of Central Tendency
 🔹 **Definition:** **Mean**, **median**, **mode**, and **range** summarize data center and spread.
@@ -4941,6 +4985,7 @@ Number line marking data points with mean arrow and median marker.
 🔹 **Applications & Memory Hooks:**
 - Grades, sports statistics, quality control.
 - Hook: “Mean adds all, median finds middle.”
+- Did you know...? The word “average” comes from the French “avarie,” linked to dividing shipping loss among merchants.
 
 ##### Block 6 – Interpreting & Critiquing Graphs
 🔹 **Definition:** Interpretation involves reading values, trends, and comparisons; critique examines accuracy, clarity, and potential bias in visualizations.
@@ -4971,6 +5016,7 @@ Checklist graphic: Title? Axes labeled? Scale consistent? Source credible?
 🔹 **Applications & Memory Hooks:**
 - Evaluating news charts, business dashboards.
 - Remember: “Ask who, what, when, how of every graph.”
+- Tip: Check three elements instantly—title, axis labels, and source—to judge whether a graph deserves trust.
 
 ##### Block 7 – Outliers & Misleading Visuals
 🔹 **Definition:** **Outliers** are data points far from others; **misleading visuals** distort perception through scale, perspective, or omission.
@@ -5001,6 +5047,7 @@ Box plot showing outlier point beyond whiskers; distorted 3D chart with warning 
 🔹 **Applications & Memory Hooks:**
 - Identifying measurement errors, detecting fraud, data cleaning.
 - Tip: “Spot the odd point; question the plot.”
+- Did you know...? Financial analysts flag outliers because a single rogue data point can trigger automated fraud alerts.
 
 ### Module 17: Probability (≈2.25h)
 Chance language & probability scale, simple probability calculations, theoretical vs experimental probability, complementary events, independent events & tree diagrams, compound probabilities.
@@ -5047,6 +5094,7 @@ Probability scale: Impossible (0) --- Unlikely --- Even (0.5) --- Likely --- Cer
 🔹 **Applications & Memory Hooks:**
 - Risk assessment, game predictions.
 - Remember: “Probability lives on the 0-to-1 street.”
+- Tip: Convert percentages to decimals immediately so you can compare probabilities on the same scale.
 
 ##### Block 2 – Sample Space Listing
 🔹 **Definition:** A **sample space** `S` is the set of all possible outcomes of a random experiment.
@@ -5077,6 +5125,7 @@ Tree diagram or table for two-dice outcomes.
 🔹 **Applications & Memory Hooks:**
 - Card games, experiments, fairness checks.
 - Tip: “List every outcome before computing chance.”
+- Did you know...? Jacob Bernoulli first formalized sample spaces while studying gambling problems in the 1600s.
 
 ##### Block 3 – Simple Probability Calculations
 🔹 **Definition:** For uniform sample spaces, probability of event `E` is `P(E) = number of favorable outcomes / total outcomes`.
@@ -5107,6 +5156,7 @@ Fraction bar representing favorable vs total outcomes.
 🔹 **Applications & Memory Hooks:**
 - Fair shares in games, quality control sampling.
 - Hook: “Count good outcomes over total outcomes.”
+- Tip: Write the event description above the numerator to remind yourself what counts as “success.”
 
 ##### Block 4 – Experimental vs Theoretical Comparison
 🔹 **Definition:** **Theoretical probability** derives from model assumptions; **experimental probability** calculated from actual trials `P_exp = successes / trials`.
@@ -5136,6 +5186,7 @@ Table comparing trial counts vs probabilities; line graph approaching theoretica
 🔹 **Applications & Memory Hooks:**
 - Simulations, testing fairness of dice/coins.
 - Remember: “Experiment repeats reveal reality.”
+- Did you know...? The law of large numbers explained why insurance companies can predict payouts reliably over many policies.
 
 ##### Block 5 – Complement Rule Usage
 🔹 **Definition:** The **complement** of event `E`, written `Ē`, contains outcomes where `E` does not occur; `P(Ē) = 1 - P(E)`.
@@ -5166,6 +5217,7 @@ Venn diagram circle: event shaded, complement is outside region within sample sp
 🔹 **Applications & Memory Hooks:**
 - Reliability analysis (probability of failure), everyday chance questions.
 - Tip: “Find the opposite, subtract from one.”
+- Did you know...? Complementary probabilities power quality-control charts that monitor whether factories stay within safe error limits.
 
 ##### Block 6 – Independent Events & Tree Diagrams
 🔹 **Definition:** Events `A` and `B` are **independent** if `P(A ∩ B) = P(A)·P(B)`; tree diagrams visualize sequential events with branching probabilities.
@@ -5197,6 +5249,7 @@ Tree: Start → Roll (1..6) → Flip (H/T) with branch probabilities labeled.
 🔹 **Applications & Memory Hooks:**
 - Reliability of systems, game scenarios, genetics.
 - Remember: “Branch multiply, but check independence.”
+- Tip: Label each branch with both the probability and the outcome description to prevent mixing up cases.
 
 ##### Block 7 – Compound Probability Practice
 🔹 **Definition:** **Compound events** combine multiple simple events; probability found using addition and multiplication rules, considering independence and mutual exclusivity.
@@ -5228,6 +5281,7 @@ Compound event map: identify type (AND/OR), independence, use appropriate formul
 🔹 **Applications & Memory Hooks:**
 - Card games, risk assessment, decision analysis.
 - Tip: “Classify event type before calculating.”
+- Did you know...? The binomial formula counts lottery odds by combining combinations with probability powers.
 
 ### Module 18: Sets & Logic (≈2.25h)
 Set concepts & notation, Venn diagrams, operations (union, intersection, difference, complement), subset relations & cardinality, logical reasoning (deductive, inductive, counterexamples).
@@ -5275,6 +5329,7 @@ Set bubble with labeled elements inside.
 🔹 **Applications & Memory Hooks:**
 - Database queries, classification tasks.
 - Remember: “Braces bound the set.”
+- Tip: When writing new sets, list elements in increasing order to make duplicates easier to spot.
 
 ##### Block 2 – Venn Diagram Construction
 🔹 **Definition:** **Venn diagrams** visualize relationships among sets using overlapping circles within a universal set rectangle.
@@ -5309,6 +5364,7 @@ ASCII Venn for two sets:
 🔹 **Applications & Memory Hooks:**
 - Survey analysis, classification diagrams.
 - Tip: “Start in middle, move outward.”
+- Did you know...? John Venn created his famous diagrams in 1880 to illustrate logical propositions in philosophy lectures.
 
 ##### Block 3 – Union & Intersection Operations
 🔹 **Definition:** **Union** `A ∪ B` combines elements in either set; **intersection** `A ∩ B` keeps elements common to both.
@@ -5338,6 +5394,7 @@ Venn shading showing union (both circles) vs intersection (overlap only).
 🔹 **Applications & Memory Hooks:**
 - Library classification (books in either subject), scheduling overlaps.
 - Hook: “Union unites, intersection intersects.”
+- Tip: Shade unions lightly and intersections darker to keep overlapping regions clear.
 
 ##### Block 4 – Difference & Complement Tasks
 🔹 **Definition:** **Set difference** `A \ B` contains elements in `A` not in `B`; **complement** `Ā` contains elements in universal set `U` not in `A`.
@@ -5368,6 +5425,7 @@ Venn shading region of A only while leaving intersection blank.
 🔹 **Applications & Memory Hooks:**
 - Filtering data (items in list but not purchased), database queries.
 - Tip: “Complement completes the universe.”
+- Did you know...? Database `NOT IN` queries implement set difference to exclude unwanted records instantly.
 
 ##### Block 5 – Subset Relations & Cardinality
 🔹 **Definition:** `A` is a **subset** of `B` (`A ⊆ B`) if every element of `A` belongs to `B`; **cardinality** `|A|` counts elements.
@@ -5399,6 +5457,7 @@ Nested circles showing subset relation; table listing cardinalities.
 🔹 **Applications & Memory Hooks:**
 - Organizing information hierarchies, inheritance in programming.
 - Remember: “Subset sits inside.”
+- Tip: Draw arrows from subset to superset when building hierarchy charts so inclusion paths stay obvious.
 
 ##### Block 6 – Logical Reasoning Forms
 🔹 **Definition:** Logic uses statements (propositions) combined with operators AND (`∧`), OR (`∨`), NOT (`¬`); reasoning forms include **deductive** (from general to specific) and **inductive** (patterns to generalization).
@@ -5429,6 +5488,7 @@ Truth table for AND/OR/NOT operations.
 🔹 **Applications & Memory Hooks:**
 - Programming conditionals, legal arguments, scientific reasoning.
 - Tip: “Flip and negate for contrapositive.”
+- Did you know...? George Boole’s 1854 work laid the foundation for logic circuits used inside every computer chip.
 
 ##### Block 7 – Counterexamples & Mixed Problems
 🔹 **Definition:** A **counterexample** disproves a universal statement by providing a single case where it fails; mixed problems combine set operations with logic.
@@ -5459,6 +5519,7 @@ Flowchart: Claim → attempt proof → find counterexample → conclusion.
 🔹 **Applications & Memory Hooks:**
 - Testing conjectures, debugging logical statements.
 - Remember: “Find one breaker to bust the claim.”
+- Tip: Look for the smallest or simplest case first—a quick counterexample often saves pages of work.
 
 ### Module 19: Problem-Solving Strategies (≈2.25h)
 Problem comprehension, strategic toolbox (work backwards, make a table, pattern finding, simplify, systematic trial), modeling, reflection & verification.
@@ -5505,6 +5566,7 @@ Problem organizer: Given → Representation → Strategy → Solution.
 🔹 **Applications & Memory Hooks:**
 - Standardized tests, real-life decision making.
 - Remember: “Understand before you plan.”
+- Tip: Annotate givens, unknowns, and the target question in different colors to keep roles clear at a glance.
 
 ##### Block 2 – Working Backwards Strategy
 🔹 **Definition:** **Working backwards** begins from desired result and reverses steps to reach initial state.
@@ -5535,6 +5597,7 @@ Arrow chain: Goal ← Step 3^{-1} ← Step 2^{-1} ← Step 1^{-1} ← Start
 🔹 **Applications & Memory Hooks:**
 - Escape room puzzles, recipe adjustments, finance back-calculations.
 - Tip: “Undo steps in reverse order.”
+- Did you know...? Many classic brainteasers like the “12 coins problem” are solved quickest by imagining the final state first and rewinding.
 
 ##### Block 3 – Tables & Organized Lists
 🔹 **Definition:** Building **tables** or **organized lists** structures information to ensure all possibilities considered without duplication.
@@ -5565,6 +5628,7 @@ Table with rows = shirt colors, columns = pant colors, fill combos.
 🔹 **Applications & Memory Hooks:**
 - Scheduling appointments, inventory management, game strategy.
 - Remember: “Structure listing to capture all.”
+- Tip: Label table axes with full words (not initials) so future you immediately understands each case counted.
 
 ##### Block 4 – Pattern Identification
 🔹 **Definition:** Recognizing **patterns** in sequences, figures, or data enables predictions and generalizations.
@@ -5595,6 +5659,7 @@ Sequence table with n vs pattern value; highlight difference column.
 🔹 **Applications & Memory Hooks:**
 - Coding algorithms, tiling puzzles, music rhythms.
 - Tip: “Test the pattern before trusting it.”
+- Did you know...? Mathematician Sofia Kovalevskaya spotted solution patterns in spinning tops that led to breakthroughs in differential equations.
 
 ##### Block 5 – Simplify & Systematic Trial
 🔹 **Definition:** **Simplifying** reduces complex problems to manageable versions; **systematic trial** tests possibilities in planned order.
@@ -5625,6 +5690,7 @@ Trial table: Attempt | Input | Result | Notes.
 🔹 **Applications & Memory Hooks:**
 - Debugging code, testing designs, puzzle solving.
 - Hook: “System beats guesswork.”
+- Tip: Keep a short trial log noting why each attempt failed so you do not repeat unproductive paths.
 
 ##### Block 6 – Modeling with Assumptions
 🔹 **Definition:** Mathematical **models** represent real situations using equations, functions, or diagrams, requiring explicit **assumptions** to simplify reality.
@@ -5655,6 +5721,7 @@ Modeling flow: Real scenario → assumptions → math model → analysis → ref
 🔹 **Applications & Memory Hooks:**
 - Finance, engineering, science experiments.
 - Remember: “State assumptions so model stands.”
+- Did you know...? George Box famously said, “All models are wrong, but some are useful,” reminding us to revisit assumptions after testing.
 
 ##### Block 7 – Verification & Reflection
 🔹 **Definition:** After solving, **verification** checks correctness (plugging back, estimating reasonableness); **reflection** reviews strategy effectiveness and potential improvements.
@@ -5685,6 +5752,7 @@ Reflection checklist: Answer valid? Units correct? Could there be another method
 🔹 **Applications & Memory Hooks:**
 - Academic exams, professional problem-solving, coding tests.
 - Tip: “Check, reflect, improve.”
+- Did you know...? Chess grandmasters annotate games immediately after playing to capture insights—mirror this by jotting why your strategy worked.
 
 ### Module 20: Combinatorics & Counting (≈2.25h)
 Addition vs multiplication principles, tree diagrams & organized listing, permutations (factorial), combinations (order-free selection), distinguishing permutations vs combinations.
@@ -5732,6 +5800,7 @@ Decision diagram branching for multiplication; separate paths for addition.
 🔹 **Applications & Memory Hooks:**
 - Scheduling, menu planning, password generation.
 - Remember: “Add either/or, multiply step-by-step.”
+- Tip: Sketch a quick case table marking “either/or” rows vs “step-by-step” columns to prevent double counting.
 
 ##### Block 2 – Tree Diagrams for Counting
 🔹 **Definition:** **Tree diagrams** display sequential choices as branching paths, ensuring all outcomes counted once.
@@ -5765,6 +5834,7 @@ Start
 🔹 **Applications & Memory Hooks:**
 - Decision processes, game outcomes, genetics traits.
 - Tip: “Branch every choice once.”
+- Did you know...? Early probability pioneers like Christiaan Huygens used tree diagrams to analyze gambling games in the 1600s.
 
 ##### Block 3 – Organized Listing Completeness
 🔹 **Definition:** **Organized listing** ensures completeness by arranging outcomes in systematic order, often using grids or lexicographic sequences.
@@ -5795,6 +5865,7 @@ Grid with rows labelled first choice, columns labelled second choice.
 🔹 **Applications & Memory Hooks:**
 - Code generation, scheduling pairs, puzzle solving.
 - Remember: “Order the list, ensure no miss.”
+- Tip: Keep a running index (like `L1, L2, ...`) beside each entry so you can easily reference or resume the list later.
 
 ##### Block 4 – Permutations & Factorial Use
 🔹 **Definition:** **Permutations** count ordered arrangements; factorial `n! = n·(n-1)·...·1` calculates total permutations without repetition.
@@ -5826,6 +5897,7 @@ Slots diagram: [_][_][_]; fill with decreasing choices.
 🔹 **Applications & Memory Hooks:**
 - Seating arrangements, race rankings, password permutations.
 - Tip: “Fill slots, count down.”
+- Did you know...? `52!` ways to order a deck of cards is about `8×10^67`, more than atoms in millions of galaxies.
 
 ##### Block 5 – Distinguishing Order Importance
 🔹 **Definition:** Determining whether **order matters** decides between permutations (order significant) and combinations (order irrelevant).
@@ -5856,6 +5928,7 @@ Flow chart: Is order important? Yes → permutations; No → combinations.
 🔹 **Applications & Memory Hooks:**
 - Sports brackets, committee selection, coding permutations/combinations.
 - Remember: “Ask the order question first.”
+- Tip: Pose the yes/no question “Would swapping two choices change the outcome?” to decide order importance fast.
 
 ##### Block 6 – Combinations (Order-Free) Concept
 🔹 **Definition:** **Combinations** count selections where order does not matter: `C(n, r) = n!/(r!(n-r)!)`.
@@ -5886,6 +5959,7 @@ Pascal triangle highlighting row n and entry r.
 🔹 **Applications & Memory Hooks:**
 - Committee formation, card hands, resource selection.
 - Tip: “Choose without caring about order.”
+- Did you know...? Pascal’s Triangle entries directly equal combination counts, making it an ancient combinatorics calculator.
 
 ##### Block 7 – Mixed Counting Scenarios
 🔹 **Definition:** Mixed problems combine multiple principles (permutations, combinations, addition, multiplication) with constraints.
@@ -5916,6 +5990,7 @@ Strategy map: Analyze → Choose principle → Compute → Combine totals.
 🔹 **Applications & Memory Hooks:**
 - Scheduling tournaments, design of codes, counting puzzle solutions.
 - Remember: “Combine methods carefully for complex counts.”
+- Tip: Write an outline of which principle applies at each stage before crunching numbers to avoid mid-solution rewinds.
 
 ### Module 21: Enrichment Topics (≈2.25h)
 Modular arithmetic, introductory graph theory (Euler paths), mathematical game strategy (Nim), historical number systems, notable mathematicians & inspirational problems.
@@ -5963,6 +6038,7 @@ Number wheel modulo 12 showing equivalence classes.
 🔹 **Applications & Memory Hooks:**
 - Clocks, calendars, checksums (ISBN, credit cards).
 - Remember: “Modulo measures remainder relationships.”
+- Tip: Reduce numbers as you go—write small congruent values in the margin to keep arithmetic manageable.
 
 ##### Block 2 – Remainder Pattern Exploration
 🔹 **Definition:** Investigating remainder cycles reveals periodic patterns in modular arithmetic, aiding predictions and simplifications.
@@ -5993,6 +6069,7 @@ Table listing k vs remainder to highlight repeating cycle.
 🔹 **Applications & Memory Hooks:**
 - Detecting periodicity in sequences, simplifying remainders in competitions.
 - Tip: “Track remainders until they loop.”
+- Did you know...? Fermat used remainder cycles to study squares modulo primes, laying groundwork for modern number theory.
 
 ##### Block 3 – Intro Graph Theory & Euler Paths
 🔹 **Definition:** **Graph theory** studies networks of **vertices** (nodes) connected by **edges**; an **Euler path** travels each edge exactly once, Euler circuit returns to start.
@@ -6024,6 +6101,7 @@ Simple graph drawing with degrees labeled; highlight traversal order.
 🔹 **Applications & Memory Hooks:**
 - Route planning, tracing puzzles, network analysis.
 - Hook: “Count odd degrees to predict Euler travel.”
+- Tip: Circle the odd-degree vertices before deciding if an Euler path or circuit exists.
 
 ##### Block 4 – Nim Rules & Winning Strategy
 🔹 **Definition:** **Nim** is a take-away game with heaps of objects; players alternate removing objects from a single heap. Winning strategy uses **binary nim-sum** (bitwise XOR) of heap sizes.
@@ -6058,6 +6136,7 @@ XOR=010 → nim-sum 2
 🔹 **Applications & Memory Hooks:**
 - Game theory, computer science (algorithmic problem solving).
 - Tip: “Aim for zero nim-sum after your move.”
+- Did you know...? Charles Bouton formalized Nim’s winning strategy in 1901 using binary arithmetic—the first solved impartial game.
 
 ##### Block 5 – Historical Numeral Systems
 🔹 **Definition:** Historical numeral systems (Roman, Egyptian, Babylonian base-60, Mayan base-20) represent numbers with unique symbols and positional rules.
@@ -6088,6 +6167,7 @@ Table comparing systems: symbols, base, zero usage.
 🔹 **Applications & Memory Hooks:**
 - Understanding historical documents, encoding alternate bases.
 - Remember: “Different cultures, different counting stories.”
+- Tip: Convert a modern number into a historical system as a warm-up to appreciate each system’s structure.
 
 ##### Block 6 – Mathematicians & Contributions
 🔹 **Definition:** Highlights key mathematicians and their contributions, emphasizing diverse backgrounds and eras.
@@ -6117,6 +6197,7 @@ Timeline with portraits and key achievements.
 🔹 **Applications & Memory Hooks:**
 - Motivational biographies, context for mathematical ideas.
 - Tip: “Every theorem has a storyteller.”
+- Did you know...? Emmy Noether’s abstract algebra breakthroughs underpin modern physics symmetry laws.
 
 ##### Block 7 – Famous/Open Problem Discussion
 🔹 **Definition:** Exploring famous solved and unsolved problems sparks curiosity and demonstrates mathematics as evolving discipline.
@@ -6147,6 +6228,7 @@ Problem gallery: title, brief description, status (solved/open), difficulty.
 🔹 **Applications & Memory Hooks:**
 - Promotes problem-solving culture, critical thinking, engagement with mathematical community.
 - Remember: “Today’s conjecture can be tomorrow’s theorem.”
+- Tip: Keep a “wonder list” of intriguing problems; revisiting them regularly builds persistence muscle.
 
 
 ---
