@@ -142,6 +142,69 @@ Recta numèrica:
 - Útil quan es trien nombres adequats per a mesures o comptatges.
 - Consell: Visualitza caixes anidades etiquetades `ℕ`, `ℤ`, `ℚ` per recordar la inclusió.
 
+
+# Bloc 3.5 – Símbols de Comparació i Desigualtats
+
+🔹 **Definició:** Els símbols `<` (menor que), `>` (major que), `=` (igual a), `≤` (menor o igual a), `≥` (major o igual a) comparen magnituds de nombres en la recta numèrica.
+
+🔹 **Exemples:**
+- `3 < 5` (3 és menor que 5).
+- `7 > 2` (7 és major que 2).
+- `4 = 4` (4 és igual a 4).
+- `-2 < 0 < 3` (cadena de desigualtats).
+- `5 ≥ 5` i `5 ≥ 3` (major o igual a).
+
+🔹 **Notació Matemàtica:**
+- `a < b`, `a > b`, `a = b`, `a ≤ b`, `a ≥ b`.
+- Propietat transitiva: si `a < b` i `b < c`, aleshores `a < c`.
+
+🔹 **Representacions Visuals:**
+```
+Recta numèrica:
+<----|----|----|----|----|---->
+    -2   0    2    4    6
+
+3 està a l'ESQUERRA de 5 → 3 < 5
+7 està a la DRETA de 2 → 7 > 2
+```
+
+```
+Desigualtat en un segment de recta numèrica:
+[a)----------o---------(b]
+ tancat     punt    obert
+ a a        valor   a b
+```
+
+🔹 **Propietats o Regles Clau:**
+- La **punta del símbol apunta al nombre més petit**: `3 < 5` (punta apuntant a 3).
+- Invertir la direcció inverteix el significat: `3 < 5` és equivalent a `5 > 3`.
+- **L'ordre es conserva en suma/resta:** si `a < b`, aleshores `a + c < b + c` i `a - c < b - c`.
+- **Multiplicació per positiu conserva l'ordre:** si `a < b` i `c > 0`, aleshores `ac < bc`.
+- **Multiplicació per negatiu inverteix la desigualtat:** si `a < b` i `c < 0`, aleshores `ac > bc`.
+- **La igualtat és reflexiva:** `a = a`; **simètrica:** si `a = b` aleshores `b = a`; **transitiva:** si `a = b` i `b = c`, aleshores `a = c`.
+
+🔹 **Concepcions Errònies Habituals:**
+- Pensar que `<` i `>` són intercanviables; la **forma importa** (la punta apunta al valor més petit).
+- Oblidar la **inversió de desigualtat en multiplicar/dividir per negatius**.
+- Confondre comparacions encadenades: `2 < 5 > 3` és ambigua; millor escriure `2 < 5` i `5 > 3` per separat.
+- Tractar `=` com a direccional; és simètrica—tots dos costats són idèntics.
+- Creure que `≤` i `≥` funcionen com desigualtats estrictes; inclouen el valor límit.
+
+🔹 **Connexions:**
+- Base per resoldre desigualtats (extensions del Mòdul 11).
+- Suporta l'ordenació de nombres en la recta numèrica (Mòdul 1).
+- Essential per notació d'intervals i rangs en funcions (Mòdul 13).
+- Apareix en interpretació de dades i comparacions estadístiques (Mòdul 16).
+
+🔹 **Aplicacions i Records Mnemotècnics:**
+- Comparar preus, temperatures, puntuacions, mesures.
+- **Consell:** "La punta **es menja** el nombre més gran" (interpretació de cocodril affamat—l'obertura apunta al valor més gran).
+- **Alternativa:** "Esquerra és menys, dreta és més" (posició en la recta numèrica).
+- **Comprovació ràpida:** Substituir nombres petits (`a = 1, b = 3`) per verificar la direcció.
+- Escenaris del món real: restriccions de pressupost (`cost ≤ €50`), límits de velocitat (`velocitat < 130 km/h`), rangs de temperatura (`-5 ≤ temp ≤ 10`).
+
+
+
 ##### Bloc 4 – Valor Posicional i Formes Desenvolupades
 🔹 **Definició:** El **valor posicional** assigna a cada dígit un valor segons la seva posició en potències de `10`; la **forma desenvolupada** escriu el nombre com la suma de cada dígit multiplicat pel seu valor posicional.
 

@@ -145,6 +145,69 @@ Number line:
 - Useful when choosing appropriate numbers for measurements or counts.
 - Tip: Visualize nested boxes labeled `ℕ`, `ℤ`, `ℚ` to recall inclusion.
 
+
+# Block 3.5 – Comparison Symbols & Inequalities
+
+🔹 **Definition:** The symbols `<` (less than), `>` (greater than), `=` (equal to), `≤` (less than or equal to), `≥` (greater than or equal to) compare magnitudes of numbers on the number line.
+
+🔹 **Examples:**
+- `3 < 5` (3 is less than 5).
+- `7 > 2` (7 is greater than 2).
+- `4 = 4` (4 equals 4).
+- `-2 < 0 < 3` (chain of inequalities).
+- `5 ≥ 5` and `5 ≥ 3` (greater than or equal to).
+
+🔹 **Mathematical Notation:**
+- `a < b`, `a > b`, `a = b`, `a ≤ b`, `a ≥ b`.
+- Transitivity property: if `a < b` and `b < c`, then `a < c`.
+
+🔹 **Visual Representations:**
+```
+Number line:
+<----|----|----|----|----|---->
+    -2   0    2    4    6
+
+3 is to the LEFT of 5 → 3 < 5
+7 is to the RIGHT of 2 → 7 > 2
+```
+
+```
+Inequality on a number line segment:
+[a)----------o---------(b]
+   closed     point    open
+   at a       value    at b
+```
+
+🔹 **Key Properties or Rules:**
+- The symbol's **point faces the smaller number**: `3 < 5` (point at 3).
+- Reversing direction reverses meaning: `3 < 5` is equivalent to `5 > 3`.
+- **Order preserved in addition/subtraction:** if `a < b`, then `a + c < b + c` and `a - c < b - c`.
+- **Multiplication by positive preserves order:** if `a < b` and `c > 0`, then `ac < bc`.
+- **Multiplication by negative reverses inequality:** if `a < b` and `c < 0`, then `ac > bc`.
+- **Equality is reflexive:** `a = a`; **symmetric:** if `a = b` then `b = a`; **transitive:** if `a = b` and `b = c`, then `a = c`.
+
+🔹 **Common Misconceptions:**
+- Assuming `<` and `>` are interchangeable; the **shape matters** (point toward smaller value).
+- Forgetting inequality **reversal when multiplying/dividing by negatives**.
+- Mixing up chain comparisons: `2 < 5 > 3` is ambiguous; instead write `2 < 5` and `5 > 3` separately or use `2 < 5 > 3` with careful intent.
+- Treating `=` as directional; it is symmetric—both sides are identical.
+- Believing that `≤` and `≥` work like strict inequalities; they include the boundary value.
+
+🔹 **Connections:**
+- Foundation for solving inequalities (Module 11 extensions).
+- Supports ordering numbers on the number line (Module 1).
+- Essential for interval notation and ranges in functions (Module 13).
+- Appears in data interpretation and statistical comparisons (Module 16).
+
+🔹 **Applications & Memory Hooks:**
+- Comparing prices, temperatures, test scores, measurements.
+- **Tip:** "The point **eats** the bigger number" (hungry alligator interpretation—the opening faces the larger value).
+- **Alternative:** "Left is less, right is greater" (position on the number line).
+- **Quick check:** Substitute small numbers (`a = 1, b = 3`) to verify direction.
+- Real-world scenarios: budget constraints (`cost ≤ €50`), speed limits (`speed < 130 km/h`), weather ranges (`-5 ≤ temp ≤ 10`).
+
+
+
 ##### Block 4 – Place Value & Expanded Forms
 🔹 **Definition:** **Place value** assigns each digit a value based on its position in powers of `10`; **expanded form** writes the number as the sum of each digit times its place value.
 
