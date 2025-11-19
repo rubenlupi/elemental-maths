@@ -102,7 +102,7 @@ Aquestes dues operacions són molt importants quan treballes amb conjunts. La **
 
 Aquí hi ha alguns errors que els estudiants solen cometre:
 
-- **"Els conjunts {2, 4, 6, ...} han d'acabar-se en algun lloc."** No! Les punts suspensius `...` significa que continua per sempre. Aquest conjunt representa tots els nombres parells positius fins a l'infinit.
+- **"Els conjunts {2, 4, 6, ...} han d'acabar-se en algun lloc."** No! Els punts suspensius `...` significa que continua per sempre. Aquest conjunt representa tots els nombres parells positius fins a l'infinit.
 - **Confondre elements amb subconjunts:** És molt diferent! `{1, 2}` és un subconjunt del conjunt `{1, 2, 3}`, però el nombre `1` és un element del mateix conjunt. Els elements són "coses dins", mentre que els subconjunts són "col·leccions dins". Tindrem més detalls en el Bloc 2.
 - **"Si reorganitzo els elements canvia el conjunt."** No! `{1, 2, 3}` i `{3, 2, 1}` són exactament el mateix conjunt. L'ordre no importa, com ja hem dit. Els estudiants de vegades pensen que la posició dels elements importa, però en conjunts no ho fa.
 
