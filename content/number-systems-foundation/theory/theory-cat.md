@@ -114,20 +114,20 @@ Aquí hi ha alguns errors que els estudiants solen cometre:
 
 Els conjunts no són només una idea abstracta de matemàtiques pures. S'utilitzen tot el temps en la vida real:
 
-- **A l'escola:** Si vols categoritzar els estudiants per la seves pertinences a clubs, pots usar conjunts. Per exemple, el conjunt de "Membres del club de xaix" o el conjunt de "Membre del club de science fiction". Un alumne pot estar en múltiples conjunts (tant xaix com ciència-ficció), o en cap, o en només un.
-- **Sistemes de classificació en biblioteques:** Les biblioteques fan servir conjunts per categoritzar llibres. El "Conjunt de Noveles Catalanes" ∩ "Conjunt de Ficció Científica" podria donar les obres que són ambdues coses.
+- **A l'escola:** Si vols categoritzar els estudiants per les seves pertinences a clubs, pots usar conjunts. Per exemple, el conjunt de "Membres del club d'escacs" o el conjunt de "membres del club de ciència-ficció". Un alumne pot estar en múltiples conjunts (tant escacs com ciència-ficció), o en cap, o en només un.
+- **Sistemes de classificació en biblioteques:** Les biblioteques fan servir conjunts per categoritzar llibres. El "Conjunt de Novel·les catalanes" ∩ "Conjunt de Ficció Científica" podria donar les obres que són ambdues coses.
 - **Consell per recordar:** Imagina cada conjunt com una "carpeta de matemàtiques" etiquetada que conté els objectes relacionats dins. Quan vols saber si alguna cosa pertany al conjunt, simplement mireu dins.
 - **Estratègia de revisió:** Crea una taula amb tres columnes: "Símbols", "Significat", "Exemple". Revisa regularment per reforçar la comprensió.
 
 🔹 **Context Històric - Desenvolupament de la Teoria de Conjunts:**
 
-- **⏰ 1874-1878 (Fa ~150 anys)—Georg Cantor: Un matemàtic que va fer una descoberta folle:** Georg Cantor era un matemàtic alemany que va fer una cosa que semblava impossible: va demostrar que existeixen **infinits de diferents mides**! Imagina-t'ho: l'infinit dels números naturals (1, 2, 3, 4, ...) és més **petit** que l'infinit dels números reals (incloent decimals). Era com descobrir que alguns infinits eren "més infinits" que altres. Això va semblar tant estrany que molts matemàtics van pensar que estava boig! Però Cantor estava buscant la veritat, no la comoditat. La seva teoria de conjunts va ser la base per a tota la matemàtica moderna.
+- **⏰ 1874-1878 (Fa ~150 anys)—Georg Cantor: Un matemàtic que va fer una descoberta sorprenent:** Georg Cantor era un matemàtic alemany que va fer una cosa que semblava impossible: va demostrar que existeixen **infinits de diferents mides**! Imagina-t'ho: l'infinit dels nombres naturals (1, 2, 3, 4, ...) és més **petit** que l'infinit dels nombres reals (incloent decimals). Era com descobrir que alguns infinits eren "més infinits" que altres. Això va semblar tant estrany que molts matemàtics van pensar que estava boig! Però Cantor estava buscant la veritat, no la comoditat. La seva teoria de conjunts va ser la base per a tota la matemàtica moderna.
 
 - **⏰ 1901 (Fa ~120 anys)—Bertrand Russell: La paradoxa que va trencar les matemàtiques:** Un matemàtic britànic jove, Bertrand Russell, estava estudiant la teoria de Cantor quan va descobrir quelcom alarmant: **existia una paradoxa que contradeia els fonaments de les matemàtiques!** La paradoxa deia: "Considera el conjunt de tots els conjunts que no pertanyen a si mateixos. ¿Pertany aquest conjunt a si mateix?" Si pertany, no pertany. Si no pertany, pertany. ¡Impossible! Això va causar una **crisi massiva en les matemàtiques**. Els matemàtics es van adonar que havien estat construint tot sobre arena. Va ser com si els arquitectes descobrissin que les seves cases estaven construïdes sobre fundacions inexistents. Russell va mostrar que cal ser molt més cuidadós definint les regles.
 
 - **⏰ 1908-1922 (Fa ~100 anys)—Zermelo-Fraenkel: Reparant els fonaments trencats:** Dos matemàtics alemanys, Ernst Zermelo i Adolf Fraenkel, van dir "Prou! Necessitem **regles clares i sàvies**!" Van crear els axiomes de Zermelo-Fraenkel, que són com les "regles del joc" que eviten les paradoxes de Russell. Aquestes regles van salvar la teoria de conjunts i van permitir que les matemàtiques poguessin continuar de forma segura. Era com si haguessin descobert les instruccions per a construir cases que NO es caven.
 
-- **⏰ 1960s-present (Fa ~60 anys fins avui)—Informàtica: De la teoria pura a les coses que usem cada dia:** Aquí és on la história es posa emocionant! Quan els ordinadors van arribar, els programadors es van adonar que la teoria de conjunts de Cantor era **exactament el que necessitaven** per a construir bases de dades. Quan busques algo a Google, uses teoria de conjunts! Quan Instagram mostra els teus amics, usa teoria de conjunts! Quan accedeix a una aplicació de banc, la seguretat es basa en conjunts. La teoria "folle" de Cantor, que va ser ridiculitzada en el seu temps, va convertir-se en la **base de la tecnologia moderna**.
+- **⏰ 1960s-present (Fa ~60 anys fins avui)—Informàtica: De la teoria pura a les coses que usem cada dia:** Aquí és on la història es posa emocionant! Quan els ordinadors van arribar, els programadors es van adonar que la teoria de conjunts de Cantor era **exactament el que necessitaven** per construir bases de dades. Quan busques alguna cosa a Google, uses teoria de conjunts! Quan Instagram mostra els teus amics, usa teoria de conjunts! Quan accedeixes a una aplicació bancària, la seguretat es basa en conjunts. La teoria "sorprenent" de Cantor, que va ser ridiculitzada en el seu temps, va convertir-se en la **base de la tecnologia moderna**.
 
 ##### Bloc 2 – Subconjunts i Visuals de Venn
 
@@ -198,7 +198,7 @@ La idea de subconjunts és omnipresent en la vida real:
 
 - **⏰ 1888 (Fa ~135 anys)—Giuseppe Peano: Posant ordre al caos de símbols:** Giuseppe Peano era un matemàtic italià que es va adonar d'un problema: tots els matemàtics estaven usant símbols diferents! Un escrivia ⊆, un altre escrivia ⊂ de manera diferent... Peano va dir "No, BASTA! Necessitem **símbols estàndard que tots usem igual**!" Va crear els símbols que usem avui: ∈, ⊆, ⊂. Peano va demostrar que la **comunicació clara és clau en les matemàtiques**. Sense la seva dedicació, els matemàtics estarien cada dia tractant de traduir-se entre ells!
 
-- **⏰ 1900s (Fa ~120 anys)—Reginald Punnett: La teoria de conjunts es descarrega al laboratori de biologia:** Aquí és on la história es posa interessant! Un biòleg anomenat Reginald Punnett va agafar els diagrames de Venn i els va adaptar per estudiar **com els gens hereta dels pares als fills**. El seu "quadrat de Punnett" va permetre als biòlegs **predir traits hereditaris** amb precisió matemàtica! De sobte, la teoria abstracta de Cantor sobre conjunts va servir per salvar vides, tractant malalties genètiques i millorant coselles. Era com si la teoria més abstracta de les matemàtiques hagués saltat del paper directament al laboratori.
+- **⏰ 1900s (Fa ~120 anys)—Reginald Punnett: La teoria de conjunts s'aplica al laboratori de biologia:** Aquí és on la història es posa interessant! Un biòleg anomenat Reginald Punnett va agafar els diagrames de Venn i els va adaptar per estudiar **com els gens s'hereten dels pares als fills**. El seu "quadrat de Punnett" va permetre als biòlegs **predir trets hereditaris** amb precisió matemàtica! De sobte, la teoria abstracta de Cantor sobre conjunts va servir per salvar vides, tractant malalties genètiques i millorant collites. Era com si la teoria més abstracta de les matemàtiques hagués saltat del paper directament al laboratori.
 
 ##### Bloc 2.5 – Operacions de Conjunts i Cardinalitat
 
@@ -594,7 +594,7 @@ Blocs de base-10: [■■■■] milers, [□□□□□] centenes, etc.
 
 - **⏰ ~1800 a.C. (Fa ~3800 anys)—Els Babilònios: Una revolució amb base-60:** Els antics babilònios van realitzar una fita extraordinària: **van inventar un dels primers sistemes posicionals del món!** Però aquí ve el gir: no usaven base-10 com nosaltres. Usaven **base-60** (sexagesimal)! Aquesta és la raó per la qual avui tenim 60 segons en un minut i 360 graus en un cercle—són residus de la genialitat babilònica. Els babilònios eren tan avançats que alguns estudiosos creuen que sabien coses que Europa no va redescobrir fins al Renaixement. Malgrat ser més difícil per a números grans, va ser una invenció monumental.
 
-- **⏰ ~500-600 d.C. (Fa ~1500 anys)—Antiga Índia: La revolució que va canviar el món:** Els matemàtics indis van fer quelcom que sembla simple avui però que era **revolucionari**: van crear el "zero" com un nombre **de veritat**, no només com un buit! Els grecs i romans no tenien zero. Per a ells, "res" no era un nombre. Els indis van dir: "Si puc tenir zero monedes, zero camells, zero dies, aleshores zero és un nombre legítim!" Van formalitzar els símbols 0-9 i el sistema decimal posicional complet. **Aquesta invenció—tant el zero com el sistema decimal—és probablement una de les tres descobertes més importants en tota la história de la matemàtica.** Sense això, la ciència moderna seria impossible!
+- **⏰ ~500-600 d.C. (Fa ~1500 anys)—Antiga Índia: La revolució que va canviar el món:** Els matemàtics indis van fer quelcom que sembla simple avui però que era **revolucionari**: van crear el "zero" com un nombre **de veritat**, no només com un buit! Els grecs i romans no tenien zero. Per a ells, "res" no era un nombre. Els indis van dir: "Si puc tenir zero monedes, zero camells, zero dies, aleshores zero és un nombre legítim!" Van formalitzar els símbols 0-9 i el sistema decimal posicional complet. **Aquesta invenció—tant el zero com el sistema decimal—és probablement una de les tres descobertes més importants en tota la història de la matemàtica.** Sense això, la ciència moderna seria impossible!
 
 - **⏰ ~850 d.C. (Fa ~1170 anys)—Al-Khwarizmi i la Batalla per acceptar el Sistema Nou:** El matemàtic persa Muhammad al-Khwarizmi va escriure un llibre revolucionari: "Kitab al-Hisab al-Hindu" (Llibre de Cálcul Indio). La paraula "algoritme" prové del seu nom! Però els europeus no el van acceptar de seguida. Van pensar: "Per què necessitem aquest sistema nou? Els números romans funcionen bé!" Prové que van estar equivocats. Al-Khwarizmi estava intentant convencer el món que el sistema indio era millor—i estava en correcte. Quan finalment es va traduir al llatí, els europeus van veure la veritat: **el nou sistema feia els càlculs molt més ràpids.**
 
@@ -616,8 +616,20 @@ Quan treballes amb nombres molt grans (com la distància a les estrelles) o molt
 Per exemple, en lloc de escribir 5,200,000, escribim 5.2 × 10^6. En lloc de 0.00034, escribim 3.4 × 10^-4.
 
 🔹 **Exemples:**
-- `5,200,000 = 5.2 × 10^6` (el decimal es desplaça 6 posicions a l'esquerra).
-- `0.00034 = 3.4 × 10^-4` (el decimal es desplaça 4 posicions a la dreta, per tant -4).
+- `5,200,000 = 5.2 × 10^6` (el decimal es desplaça 6 posicions a la dreta, per tant +6):
+  - Comença: 5.2
+  - Desplaça 1: 52
+  - Desplaça 2: 520
+  - Desplaça 3: 5,200
+  - Desplaça 4: 52,000
+  - Desplaça 5: 520,000
+  - Desplaça 6: 5,200,000 ✓
+- `0.00034 = 3.4 × 10^-4` (el decimal es desplaça 4 posicions a l'esquerra, per tant -4):
+  - Comença: 3.4
+  - Desplaça -1: 0.34
+  - Desplaça -2: 0.034
+  - Desplaça -3: 0.0034
+  - Desplaça -4: 0.00034 ✓
 - Contraexemple: `52 × 10^5` NO és correcte! Perquè el coeficient 52 no està entre 1 i 10. Hauries escribir `5.2 × 10^6` en lloc d'això.
 
 🔹 **Notació Matemàtica:**
@@ -757,6 +769,18 @@ Un dels descobriments més profunds en matemàtiques és que tots els nombres (e
 🔹 **Definició:** Un **nombre primer** és un nombre natural major que 1 que té exactament dos divisors positius distints: 1 i ell mateix. Un **nombre compost** té més de dos divisors (pot dividir-se per altres nombres a més d'1 i ell mateix). El nombre 1 és especial—no és primer ni compost.
 
 El **Garbell d'Eratòstenes** és un algoritme antic però potent per trobar tots els primers fins a un nombre donat eliminant sistemàticament els múltiples.
+
+**Com Funciona (Pas a Pas):**
+Per a trobar tots els primers fins a 30:
+
+1. **Escriu els números 2-30:** 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30
+2. **Comença amb el primer:** 2 és primer ✓. Marca TOTS els múltiples de 2: ~~4~~, ~~6~~, ~~8~~, ~~10~~, ~~12~~, ~~14~~, ~~16~~, ~~18~~, ~~20~~, ~~22~~, ~~24~~, ~~26~~, ~~28~~, ~~30~~.
+3. **Passa al siguiente no marcat:** 3 és primer ✓. Marca TOTS els múltiples de 3 (que no estiguin ja marcats): ~~9~~, ~~15~~, ~~21~~, ~~27~~.
+4. **Passa al siguiente no marcat:** 5 és primer ✓. Marca TOTS els múltiples de 5: ~~25~~.
+5. **Passa al siguiente no marcat:** 7 és primer ✓. Ja no hi ha múltiples de 7 fins a 30.
+6. **Els números NO marcats són primers:** 2, 3, 5, 7, 11, 13, 17, 19, 23, 29 ✓
+
+**Per què és eficient:** En lloc de provar si 91 és primer (que seria lent), simplement marca els seus múltiples. Els que queden no és han estat marcats per cap nombre més petit, per tant SÓN primers.
 
 🔹 **Exemples:**
 - `2, 3, 5, 7` són primers. Cadascun només es pot dividir per 1 i per si mateix.
@@ -986,6 +1010,13 @@ La **factorització en primers** (o descomposició en factors primers) és el pr
 - 100 = 2² × 5²
 
 El **Teorema Fonamental de l'Aritmètica** estableix que aquesta representació és **única** per a cada nombre. Això significa que no hi ha dos nombres que tinguin la mateixa factorització en primers — cadascun té la seva pròpia "signatura" matemàtica.
+
+**Per Què és Única? (Intuïció):**
+Imagina que el nombre 60 pot factoritzar-se de dues formes:
+- Forma A: 60 = 2² × 3 × 5
+- Forma B: 60 = ???
+
+**No hi ha una Forma B!** Per què? Si 60 té factor 2, i 2 és primer, llavors el número resultant (60 ÷ 2 = 30) ha de factorizar-se de manera única. I si 30 es factoritza com 2 × 3 × 5, aleshores 60 NECESSÀRIAMENT és 2 × 2 × 3 × 5. **No hi ha escapatòria.** La factorització està forçada en cada pas, com si seguessis un mapa sense bifurcacions.
 
 **Exemples Detallats:**
 - **Factorització de 60:**
@@ -1509,13 +1540,13 @@ Ara fem la pregunta que destrueix tot:
 
 És a dir: **¿R es conté a sí mateix?**
 
-Vamos a analizar los dos casos possibles:
+Analitzem els dos casos possibles:
 
 ---
 
 ### 🌱 **Cas 1: Suposem que R ∉ R**
 
-Supongamos que R **NO** pertenece a R.
+Suposem que R **NO** pertany a R.
 
 **¿Qué significa això?**
 
@@ -1541,7 +1572,7 @@ Té sentit: estem assumint que R no està dins de R.
 
 ### 🌪️ **Cas 2: Suposem que R ∈ R**
 
-Ara suposem el contrari: R **SÍ** pertenece a R.
+Ara suposem el contrari: R **SÍ** pertany a R.
 
 **¿Qué significa això?**
 
@@ -1742,7 +1773,7 @@ Els axiomes són com aquestes lleis. Limiten el que pots crear, **però mantenen
 
 - **Gödel (1931):** Kurt Gödel va demostrar que **qualsevol sistema matemàtic consistent té proposicions verdaderes que NO es poden provar dins del sistema.**
 
-- Això significa que fins i tot els axiomes ZF deixaixen algunes preguntes sense resposta.
+- Això significa que fins i tot els axiomes ZF deixen algunes preguntes sense resposta.
 
 - Però ZF és el millor que tenim—és **suficientment poderós** per a la majoria de matemàtiques, i **suficientment segur** per a evitar paradoxes.
 
