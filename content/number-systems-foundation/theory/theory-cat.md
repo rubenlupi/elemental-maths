@@ -1,22 +1,20 @@
-Conjunts, notació, pertinença, subconjunts, conjunts de nombres bàsics (ℕ, ℤ, ℚ), valor posicional, notació científica, divisibilitat, nombres primers, MCD/MCM, nombres especials, aritmètica modular introductòria.
+## Fonaments dels sistemes numèrics
 
-Paraules clau: conjunt, element, notació, claus, pertinença, subconjunt, subconjunt propi, Venn, conjunt buit, ℕ, ℤ, ℚ, jerarquia, valor posicional, forma desenvolupada, notació científica, divisibilitat, primer, compost, garbell, MCD, algoritme d'Euclides, MCM, factorització, nombres perfectes, nombres triangulars, Fibonacci, aritmètica modular, congruència, patrons de resta
-
-Blocs:
-1 Conjunts i notació bàsica
-2 Subconjunts, subconjunts propis, visuals de Venn
-3 Jerarquia de conjunts de nombres ℕ→ℤ→ℚ
-4 Valor posicional i formes desenvolupades
-5 Introducció a la notació científica
-6 Pràctica de regles de divisibilitat
-7 Primer/compost + mètode del garbell
-8 Aplicacions MCD (Euclides)
-9 MCM via factors primers
-10 Factorització i teorema fonamental
-11 Nombres especials (perfectes, triangulars, Fibonacci)
-12 Concepte d'aritmètica modular (a ≡ b mod n)
-13 Exploració de patrons de resta
-14 Consolidació mixta i repàs
+#### Blocs:
+1. Conjunts i notació bàsica
+2. Subconjunts, subconjunts propis, visuals de Venn
+3. Jerarquia de conjunts de nombres ℕ→ℤ→ℚ
+4. Valor posicional i formes desenvolupades
+5. Introducció a la notació científica
+6. Pràctica de regles de divisibilitat
+7. Primer/compost + mètode del garbell
+8. Aplicacions MCD (Euclides)
+9. MCM via factors primers
+10. Factorització i teorema fonamental
+11. Nombres especials (perfectes, triangulars, Fibonacci)
+12. Concepte d'aritmètica modular (a ≡ b mod n)
+13. Exploració de patrons de resta
+14. Consolidació mixta i repàs
 
 #### Teoria
 
@@ -35,11 +33,12 @@ Blocs:
 
 🔹 **Representacions Visuals:**
 ```
-S = {⚽, 🏀, 🎾}
-Índex:   1   2   3
+Exemplos de conjunts:
+S = {rojo, blau, verd}  (3 colors)
+T = {1, 2, 3, 4, 5}     (5 nombres)
 ```
 ```
-Idea de recta numèrica per a nombres parells:
+Recta numèrica de nombres parells:
 <---•---•---•---•--->
 	0   2   4   6
 ```
@@ -658,3 +657,8 @@ n | 2^n mod 5
 - Esperant que els cicles comencin a `n = 0`; els termes inicials poden diferir.
 - Creure que cada modulus rend una longitud de cicle igual al modulus sense verificar ordre real.
 - Assumir que una vegada un valor es repeteix, la seqüència acaba immediatament en lloc de continuar amb el cicle establert.
+
+
+
+# Paraules clau
+Conjunt, element, notació, claus, pertinença, subconjunt, subconjunt propi, Venn, conjunt buit, ℕ, ℤ, ℚ, jerarquia, valor posicional, forma desenvolupada, notació científica, divisibilitat, primer, compost, garbell, MCD, algoritme d'Euclides, MCM, factorització, nombres perfectes, nombres triangulars, Fibonacci, aritmètica modular, congruència, patrons de resta
