@@ -1509,7 +1509,7 @@ Input set → function machine → output set diagram showing single arrows per 
 - Represented as columns `x | f(x)`; can include arrows showing mapping.
 
 🔹 **Visual Representations:**
-```
+
 x | f(x)
 🔹 **Common Misconceptions:**
 - Assuming verification is optional; small errors can propagate.
