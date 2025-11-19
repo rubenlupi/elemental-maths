@@ -146,7 +146,7 @@ Number line:
 - Tip: Visualize nested boxes labeled `ℕ`, `ℤ`, `ℚ` to recall inclusion.
 
 
-# Block 3.5 – Comparison Symbols & Inequalities
+##### Block 3.5 – Comparison Symbols & Inequalities
 
 🔹 **Definition:** The symbols `<` (less than), `>` (greater than), `=` (equal to), `≤` (less than or equal to), `≥` (greater than or equal to) compare magnitudes of numbers on the number line.
 
@@ -602,6 +602,9 @@ n | 2^n mod 5
 - Expecting cycles to start at `n = 0`; initial terms may differ.
 - Believing every modulus yields a cycle of length equal to the modulus without checking actual order.
 - Assuming once a value repeats, the sequence immediately ends instead of continuing with the established cycle.
+
+
+### Module 1.5: Ratio Representations & Simplification (≈4.5h)
 
 #### Theory
 
