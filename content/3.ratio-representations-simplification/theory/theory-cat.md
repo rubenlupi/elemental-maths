@@ -17,7 +17,7 @@
 
 🔹 **Dibuixos que ens ajuden:**
 ```
-Imagina una barra dividida en 5 parts iguals: 2 partes per aquí i 3 parts per allà. Això és la raó 2:3.
+Imagina una barra dividida en 5 parts iguals: 2 parts per aquí i 3 parts per allà. Això és la raó 2:3.
 ```
 
 🔹 **Coses importants a saber:**
@@ -32,7 +32,7 @@ Imagina una barra dividida en 5 parts iguals: 2 partes per aquí i 3 parts per a
 
 🔹 **Per recordar:**
 - Les raons apareixen en receptes (1 part sucre per 2 parts farina), mapes i jocs.
-- Consell: "Simplifica raons com feies amb fraccions—divideix els dos nombres pel mateix número."
+- Consell: "Simplifica raons com les fraccions—divideix els dos nombres pel mateix número."
 
 ##### Bloc 2 – Parts d'un Tot vs Parts que es Comparen
 🔹 **Què és:** Quan compares dues parts d'un tot, ho fas de dues maneres:
@@ -42,15 +42,15 @@ Imagina una barra dividida en 5 parts iguals: 2 partes per aquí i 3 parts per a
 🔹 **Exemples:**
 - Bossa amb `3` caramels rojos i `2` blaus:
   - Part-a-part: `3:2` (3 rojos per cada 2 blaus)
-  - Part-a-total (roigs): `3:5` (3 rojos de cada 5 caramels)
+  - Part-a-total (rojos): `3:5` (3 rojos de cada 5 caramels)
 - No és igual dir "la raó és `3:5`" si parles de part-a-part, perquè només hi ha 5 caramels totals!
 
 🔹 **Com escrivim això:**
-- Sempre deixa clar quina raó és: `roigs:blaus = 3:2` o `roigs:total = 3:5`.
+- Sempre deixa clar quina raó és: `rojos:blaus = 3:2` o `rojos:total = 3:5`.
 
 🔹 **Dibuixos que ens ajuden:**
 ```
-Imagina un pastís: 3 trossos rojos i 2 blaus. La raó part-a-part és 3:2, però part-a-total el roig és 3/5.
+Imagina un pastís: 3 trossos rojos i 2 blaus. La raó part-a-part és 3:2, però part-a-total el roig és 3/5 del pastís.
 ```
 
 🔹 **Coses importants a saber:**
@@ -58,7 +58,7 @@ Imagina un pastís: 3 trossos rojos i 2 blaus. La raó part-a-part és 3:2, per�
 - Pots passar de part-a-part a part-a-total si saps el total.
 
 🔹 **Errors comuns:**
-- Confondre part-a-part amb part-a-total porta a contes equivocats.
+- Confondre part-a-part amb part-a-total porta a comptes equivocats.
 
 🔹 **Relacionat amb:**
 - Càlcul de percentatges.
@@ -75,13 +75,13 @@ Imagina un pastís: 3 trossos rojos i 2 blaus. La raó part-a-part és 3:2, per�
   - Cada part val: `60 ÷ 5 = 12`
   - Primer amic: `2 × 12 = £24`
   - Segon amic: `3 × 12 = £36`
-- Receptes: Si vol fer 25 gramos d'una mescla amb raó `4:1` (especiada:sal):
+- Receptes: Si vols fer 25 grames d'una mescla amb raó `4:1` (especiada:sal):
   - Parts: `4 + 1 = 5`
   - Cada part: `25 ÷ 5 = 5g`
   - Especiada: `4 × 5 = 20g`, Sal: `1 × 5 = 5g`
 
 🔹 **Com ho fem:**
-- Formula: Part size = total ÷ (suma de parts)
+- Fórmula: Mida de la part = total ÷ (suma de parts)
 - Llavors multiplica per cada número de la raó.
 
 🔹 **Dibuixos que ens ajuden:**
@@ -103,12 +103,12 @@ Una barra dividida en 5 quadrats iguals. A en rep 2, B en rep 3. Això mostra la
 - Consell: "Primer suma totes les parts de la raó. Llavors divideix el total. Finalment multiplica per cada part."
 
 ##### Bloc 4 – Taxa Unitària: El Preu o Velocitat d'Una Cosa
-🔹 **Què és:** Una **taxa unitària** és quan compares una cosa amb UNA sola unitat d'una altra. Com "quants kilòmetres recorres en 1 hora" o "quants euros costa 1 poma".
+🔹 **Què és:** Una **taxa unitària** és quan compares una cosa amb UNA sola unitat d'una altra. Com "quants quilòmetres recorres en 1 hora" o "quants euros costa 1 poma".
 
 🔹 **Exemples:**
 - Un cotxe recorre `120 km` en `3 hores`. La taxa unitària és: `120 ÷ 3 = 40 km per hora`.
 - `3` pomes costen `€4.50`. Una poma costa: `4.50 ÷ 3 = €1.50 per poma`.
-- No és correcte dir que el preu és `€4.50 per 3 pomes` si demanen el preu de 1.
+- No és correcte dir que el preu és `€4.50 per 3 pomes` si demanen el preu de 1 poma.
 
 🔹 **Com escrivim això:**
 - `40 km/h` (40 kilòmetres per hora)
@@ -137,10 +137,10 @@ Una taula: 1 hora = 40 km, 2 hores = 80 km, 3 hores = 120 km. La taxa unitària 
 
 🔹 **Exemples:**
 - Un dibuix a escala: `1 cm al dibuix = 2 metres a la realitat`. Si el dibuix mesura `5 cm`, la realitat mesura `10 metres`. Això és una proporció: `1:2 = 5:10`.
-- Dosificació de medicina: Si 10 kg necessita 5 mg de medicina, 20 kg necessita 10 mg. `10:5 = 20:10`.
+- Dosificació de medicina: Si 10 kg necessiten 5 mg de medicina, 20 kg necessiten 10 mg. `10:5 = 20:10`.
 
 🔹 **Com ho fem:**
-- Formula: Si `a/b = c/d`, llavors `a × d = b × c` (multiplicació creuada).
+- Fórmula: Si `a/b = c/d`, llavors `a × d = b × c` (multiplicació creuada).
 
 🔹 **Dibuixos que ens ajuden:**
 ```
@@ -180,10 +180,10 @@ Dues barres de mida diferent, però amb la mateixa proporció. La raó 3:4 és i
 
 🔹 **Coses importants a saber:**
 - Els números de baix (denominadors) han de ser diferents de zero.
-- Si hi ha números amb paréntesis, has de distribuir (que és com ampliar).
+- Si hi ha números amb parèntesis, has de distribuir (que és com repartir-los).
 
 🔹 **Errors comuns:**
-- Oblidar multiplicar tots els números dins de les claus. Per exemple, si tens `(x+2)` en el denominador.
+- Oblidar multiplicar tots els números dins dels parèntesis. Per exemple, si tens `(x+2)` en el denominador.
 
 🔹 **Relacionat amb:**
 - Equacions que veuràs més tard.
@@ -196,7 +196,7 @@ Dues barres de mida diferent, però amb la mateixa proporció. La raó 3:4 és i
 
 🔹 **Exemples:**
 - Un mapa diu `1:50.000`. Això vol dir que 1 cm al mapa són 50.000 cm a la realitat (o 500 metres).
-- Un cotxe de joguina té escala `1:24`. Significa que el cotxe real és 24 vegades més gran. Si el juguete mesura 17 cm, el cotxe real mesura `17 × 24 = 408 cm` (o 4,08 metres).
+- Un cotxe de joguina té escala `1:24`. Significa que el cotxe real és 24 vegades més gran. Si la joguina mesura 17 cm, el cotxe real mesura `17 × 24 = 408 cm` (o 4,08 metres).
 - Si només escalas el llarg però no l'ample, el cotxe es veurà estrany!
 
 🔹 **Com funciona:**
@@ -268,8 +268,8 @@ Una barra dividida en 100 parts iguals. Pinta 25 d'elles. Aquella és el 25%.
 ```
 
 🔹 **Coses importants a saber:**
-- La multiplicació és la clau. Sempre multipliques, mai divideixes (a no ser que busquis el percentatge inverso).
-- `25% = 1/4`, `50% = 1/2`. Aquestes fraccions facilitan el càlcul mental.
+- La multiplicació és la clau. Sempre multipliques, mai divideixes (a no ser que busquis el percentatge invers).
+- `25% = 1/4`, `50% = 1/2`. Aquestes fraccions faciliten el càlcul mental.
 
 🔹 **Errors comuns:**
 - Oblidar convertir el percentatge a decimal abans de multiplicar.
@@ -298,7 +298,7 @@ Una barra alta (original) i una més alta (augment) o més baixa (disminució).
 
 🔹 **Coses importants a saber:**
 - L'original és l'important. No és el mateix pujar del 50 al 60 que del 60 al 70.
-- Si puja el 10% i després baixa el 10%, NO torna al precio original!
+- Si puja el 10% i després baixa el 10%, NO torna al preu original!
 
 🔹 **Errors comuns:**
 - Sumar o restar percentatges directament sense fer les multiplicacions.
@@ -310,7 +310,7 @@ Una barra alta (original) i una més alta (augment) o més baixa (disminució).
 - Consell: "Nou = vell × (1 ± percentatge)."
 
 ##### Bloc 11 – Descomptes i Marques: Rebaixes i Preu de Venda
-🔹 **Què és:** **Descomptes** són reduccions (com quan una botiga rebaixa). **Marques** són augments (quan un negociant compra barato i ven car).
+🔹 **Què és:** **Descomptes** són reduccions (com quan una botiga rebaixa). **Marques** són augments (quan un negociant compra barat i ven car).
 
 🔹 **Exemples:**
 - Una samarreta costa `€80`. Fa 30% de descompte. Pagueràs: `80 × (1 - 0,30) = 80 × 0,70 = €56`.
@@ -339,16 +339,16 @@ Una barra que mostra el preu original, el trosso que es rebaixa, i el preu final
 - Consell: "Multiplica per (1 ± percentatge)."
 
 ##### Bloc 12 – Interès Simple: Diners que Guanyes per Estalviar
-🔹 **Què és:** L'**interès simple** és diners extra que el banc et dóna si deixaes els teus diners allà un temps. Es calcula: `Interès = Principal × Taxa anual × Temps (en anys)`.
+🔹 **Què és:** L'**interès simple** és diners extra que el banc et dóna si hi deixis els teus diners un temps. Es calcula: `Interès = Principal × Taxa anual × Temps (en anys)`.
 
 🔹 **Exemples:**
-- Deixaes `€500` al banc amb taxa de `6%` anual durant `2 anys`.
+- Si deixis `€500` al banc amb taxa de `6%` anual durant `2 anys`.
   - Interès = `500 × 0,06 × 2 = €60`.
   - Total al final = `500 + 60 = €560`.
 - Una altra forma: `€1000` amb `4%` anual durant `3` anys = `1000 × 0,04 × 3 = €120`.
 
 🔹 **Com funciona:**
-- Cada any rebuts la mateixa quantitat d'interès.
+- Cada any reps la mateixa quantitat d'interès.
 - La taxa ha de ser en forma decimal (`6% = 0,06`).
 - Si el temps és en mesos, divideix per 12.
 
@@ -371,16 +371,16 @@ Una línia de temps: any 1 (+diners), any 2 (+mateixa quantitat), any 3 (+mateix
 - Consell: "Interès = principal × taxa × temps."
 
 ##### Bloc 13 – Problemes amb Múltiples Passos: Descomptes, Impostos i Més
-🔹 **Què és:** A vegades has de fer més d'una cosa. Per exemple, compres algo amb descompte i llavors pagues impostos.
+🔹 **Què és:** A vegades hauràs de fer més d'una cosa. Per exemple, compres alguna cosa amb descompte i després pagues impostos.
 
 🔹 **Exemples:**
-- Una samarreta costa `€120`. Primer, descompte de 20%: `120 × 0,8 = €96`.
+- Una samarreta costa `€120`. Primer, descompte del 20%: `120 × 0,8 = €96`.
 - Després, impostos del 8%: `96 × 1,08 = €103,68`.
 - NO és correcte fer `20% + 8% = 28%` i llavors `120 × 0,72`. Això dóna `€86,40`, que és incorrecte!
 
 🔹 **Com funciona:**
 - Has de fer CADA pas un darrere de l'altre: `valor × (1 ± pas1) × (1 ± pas2)`.
-- Convierte cada percentatge a decimal primer.
+- Converteix cada percentatge a decimal primer.
 
 🔹 **Dibuixos que ens ajuden:**
 ```
@@ -401,10 +401,10 @@ Un procés: Preu original → Descompte → Impostos → Preu final.
 - Consell: "Factor per factor, pas a pas."
 
 ##### Bloc 14 – Repàs i Consolidació: Tot Mesclat
-🔹 **Què és:** A vegades hauràs de decidir quina tècnica usar. Ha de repassar tot i veure com tot s'assemblament.
+🔹 **Què és:** A vegades hauràs de decidir quina tècnica usar. Has de repassar tot i veure com tot s'assembla.
 
 🔹 **Exemples:**
-- Una recepta usa raó `3:2`. Si vols fer la meitat, la nova raó és... `1,5:1`. Però és més fàcil pensar com `1:0,67` si divideixes.
+- Una recepta usa raó `3:2`. Si vols fer la meitat, la nova raó és `1,5:1`. Però és més fàcil pensar-ho com `1:0,67` si divideixes.
 - Un joc costa `€24` amb descompte del 25%. El 25% de `€24` és `€6`. Així que pagas `€18`. Aquell és un problema de raó, percentatge i multiplicació tot mesclat.
 
 🔹 **Com funciona:**
@@ -419,7 +419,7 @@ Un mapa que connecta: Raons → Taxa unitàries → Percentatges → Interès.
 
 🔹 **Coses importants a saber:**
 - No hi ha una única resposta si no saps què estàs buscant. Llegeix els problemes amb cura.
-- Sempre comprova les unitats. Els números sense unitats no significuen res.
+- Sempre comprova les unitats. Els números sense unitats no signifiquen res.
 
 🔹 **Errors comuns:**
 - Fer la tècnica equivocada sense pensar bé.
@@ -428,4 +428,4 @@ Un mapa que connecta: Raons → Taxa unitàries → Percentatges → Interès.
 - Tots els blocs anteriors.
 
 🔹 **Per recordar:**
-- Consell: Sempre demana't: "Aquesta és una comparació? Un percentatge? Una velocitat? Un preu?"
+- Consell: Sempre demana't: "Aquesta és una comparació? Un percentatge? Una velocitat? Un preu? Una taxa?"
